@@ -1,0 +1,12 @@
+C:\Daten (Programmier-Modul)\CollectJoe-Projekt M404\CollectJoe\CollectJoe - Projekt M404\bin\Debug\CollectJoe - Projekt M404.exe.config
+C:\Daten (Programmier-Modul)\CollectJoe-Projekt M404\CollectJoe\CollectJoe - Projekt M404\bin\Debug\CollectJoe - Projekt M404.exe
+C:\Daten (Programmier-Modul)\CollectJoe-Projekt M404\CollectJoe\CollectJoe - Projekt M404\bin\Debug\CollectJoe - Projekt M404.pdb
+C:\Daten (Programmier-Modul)\CollectJoe-Projekt M404\CollectJoe\CollectJoe - Projekt M404\obj\Debug\CollectJoe - Projekt M404.csprojResolveAssemblyReference.cache
+C:\Daten (Programmier-Modul)\CollectJoe-Projekt M404\CollectJoe\CollectJoe - Projekt M404\obj\Debug\CollectJoe___Projekt_M404.frmField.resources
+C:\Daten (Programmier-Modul)\CollectJoe-Projekt M404\CollectJoe\CollectJoe - Projekt M404\obj\Debug\CollectJoe___Projekt_M404.Properties.Resources.resources
+C:\Daten (Programmier-Modul)\CollectJoe-Projekt M404\CollectJoe\CollectJoe - Projekt M404\obj\Debug\CollectJoe - Projekt M404.csproj.GenerateResource.Cache
+C:\Daten (Programmier-Modul)\CollectJoe-Projekt M404\CollectJoe\CollectJoe - Projekt M404\obj\Debug\CollectJoe - Projekt M404.exe
+C:\Daten (Programmier-Modul)\CollectJoe-Projekt M404\CollectJoe\CollectJoe - Projekt M404\obj\Debug\CollectJoe - Projekt M404.pdb
+C:\Daten (Programmier-Modul)\CollectJoe-Projekt M404\CollectJoe\CollectJoe - Projekt M404\obj\Debug\CollectJoe___Projekt_M404.frmOptions.resources
+C:\Daten (Programmier-Modul)\CollectJoe-Projekt M404\CollectJoe\CollectJoe - Projekt M404\obj\Debug\CollectJoe___Projekt_M404.frmScoreList.resources
+C:\Daten (Programmier-Modul)\CollectJoe-Projekt M404\CollectJoe\CollectJoe - Projekt M404\obj\Debug\CollectJoe___Projekt_M404.frmEditScore.resources

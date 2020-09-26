@@ -1,0 +1,113 @@
+.container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  transform-style: preserve-3d;
+
+  .content {
+    background: #525b61;
+  }
+
+  .heading-image {
+    background: url("src/assets/camera.jpg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .navigator {
+    align-self: end;
+    width: 50%;
+    border-right: 1px solid #ffffff;
+    height: 20%;
+    margin-bottom: 4em;
+    position: absolute;
+    bottom: 5px;
+  }
+
+  .navigator::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 11px 11px 0px 11px;
+    border-color: #ffffff transparent transparent transparent;
+    right: -0.7em;
+    bottom: -2px;
+  }
+
+  .image-selection {
+    display: flex;
+    justify-content: center;
+
+    .container-image-button {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 50px;
+
+      .images-domenico, .images-nils, .images-remy, .images-olivier {
+        width: 300px;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
+        background-color: white;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+
+      .icon-container {
+        width: 80%;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: transparent;
+        color: white;
+
+        p {
+          font-size: 20px;
+          color: white;
+        }
+
+        .icon-gallery {
+          width: 25px;
+          height: 25px;
+        }
+
+        .icon-hover {
+          transition: 0.5s;
+          opacity: 0;
+        }
+      }
+
+      .icon-container:hover {
+        .icon-hover {
+          opacity: 1;
+          transition: 0.5s;
+        }
+      }
+
+      .images-domenico {
+        background-image: url("src/assets/images_domenico/domenico_image_01.PNG");
+      }
+
+      .images-nils {
+        background-image: url("src/assets/images_nils/nils_image_03.PNG");
+      }
+
+      .images-remy {
+        background-image: url("src/assets/images_remy/remy_image_01.PNG");
+      }
+
+      .images-olivier {
+        background-image: url("src/assets/images_olivier/olivier_image_01.PNG");
+      }
+    }
+  }
+}
+

@@ -1,0 +1,85 @@
+.content {
+  background: #525b61;
+
+  .portfolio-image {
+    background: url(src/assets/canon-widescreen_edit.jpg) no-repeat;
+    background-size: cover;
+    height: 70vh;
+  }
+
+  .image-previews {
+    margin: 50px 100px 0px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+
+    .flexbox {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      margin-bottom: 80px;
+    }
+
+    .container-0 {
+      flex-direction: row;
+    }
+
+    .container-1 {
+      flex-direction: row-reverse;
+    }
+
+    .container-2 {
+      flex-direction: row;
+    }
+
+    .image {
+      width: 45%;
+      border-radius: 10px;
+    }
+
+    .image-description {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      width: 45%;
+
+      h2 {
+        margin-top: 0;
+      }
+
+      p {
+        margin: 0;
+      }
+    }
+
+    .metadata {
+      div {
+        margin: 20px 0 0 0;
+        height: 20px;
+        width: 20px;
+      }
+
+      .location {
+        background: url(src/assets/icons/place-white-18dp.svg) no-repeat;
+      }
+
+      .shutter {
+        background: url(src/assets/icons/shutter_speed-white-18dp.svg) no-repeat;
+      }
+
+      .iso {
+        background: url(src/assets/icons/exposure-white-18dp.svg) no-repeat;
+      }
+
+      .aperture {
+        background: url(src/assets/icons/camera-white-18dp.svg) no-repeat;
+      }
+
+      .camera {
+        background: url(src/assets/icons/camera_alt-white-18dp.svg) no-repeat;
+      }
+    }
+  }
+}

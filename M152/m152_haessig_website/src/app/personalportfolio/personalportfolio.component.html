@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="content">
+        <div class="portfolio-image"></div>
+        <div class="image-previews">
+            <div *ngFor="let image of userImages; index as i" class="flexbox container-{{i}}">
+                <img class="image" src="{{image?.imagepath}}" alt="Bild">
+                <div class="image-description">
+                    <h2>{{image?.imagetitle}}</h2>
+                    <p>{{image?.imagedescription}}</p>
+                    <div class="metadata">
+                        <div class="location"></div><p>{{image?.imagelocation}}</p>
+                        <div class="shutter"></div><p>{{image?.shutter}}</p>
+                        <div class="iso"></div><p>{{image?.iso}}</p>
+                        <div class="aperture"></div><p>{{image?.aperture}}</p>
+                        <div class="camera"></div><p>{{image?.camera}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

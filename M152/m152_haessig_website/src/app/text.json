@@ -1,0 +1,138 @@
+{
+  "domenico": {
+    "images": [
+      {
+        "imagetitle": "Erstes Bild",
+        "imagedescription": "Dies ist mein erstes Bild Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.,\n",
+        "imagelocation": "Wiese hinter Mensa",
+        "shutter": "1/125",
+        "iso": "100",
+        "aperture": "5.0",
+        "camera": "Canon 77D, 18 - 55mm, f/4.0 - f/5.6",
+        "imagepath": "../../assets/images_domenico/domenico_image_01.PNG"
+      },
+      {
+        "imagetitle": "Zweites Bild",
+        "imagedescription": "Dies ist mein zweites Bild Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+        "imagelocation": "Fachhochschule",
+        "shutter": "1/60",
+        "iso": "100",
+        "aperture": "4.5",
+        "camera": "Canon 77D, 18 - 55mm, f/4.0 - f/5.6",
+        "imagepath": "../../assets/images_domenico/domenico_image_02.PNG"
+      },
+      {
+        "imagetitle": "Drittes Bild",
+        "imagedescription": "Dies ist mein drittes Bild Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+        "imagelocation": "Fachhochschule",
+        "shutter": "1/125",
+        "iso": "100",
+        "aperture": "5.0",
+        "camera": "Canon 77D, 18 - 55mm, f/4.0 - f/5.6",
+        "imagepath": "../../assets/images_domenico/domenico_image_03.PNG"
+      }
+    ]
+  },
+  "nils": {
+    "images": [
+      {
+        "imagetitle": "Erstes Bild",
+        "imagedescription": "Dies ist mein erstes Bild Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
+        "imagelocation": "BM-Gebäude, 1.Stock",
+        "shutter": "1/60",
+        "iso": "100",
+        "aperture": "4.0",
+        "camera": "Canon 77D, 18 - 55mm, f/4.0 - f/5.6",
+        "imagepath": "../../assets/images_nils/nils_image_01.PNG"
+      },
+      {
+        "imagetitle": "Zweites Bild",
+        "imagedescription": "Dies ist mein zweites Bild Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
+        "imagelocation": "Wiese hinter Mensa",
+        "shutter": "1/60",
+        "iso": "100",
+        "aperture": "4.0",
+        "camera": "Canon 77D, 18 - 55mm, f/4.0 - f/5.6",
+        "imagepath": "../../assets/images_nils/nils_image_02.PNG"
+      },
+      {
+        "imagetitle": "Drittes Bild",
+        "imagedescription": "Dies ist mein drittes Bild Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
+        "imagelocation": "Treppe hinter Lernhalle",
+        "shutter": "1/160",
+        "iso": "100",
+        "aperture": "4.0",
+        "camera": "Canon 77D, 18 - 55mm, f/4.0 - f/5.6",
+        "imagepath": "../../assets/images_nils/nils_image_03.PNG"
+      }
+    ]
+  },
+  "remy": {
+    "images": [
+      {
+        "imagetitle": "Gespiegelter Wasserhahn",
+        "imagedescription": "Ein epischer Wasserhahn welcher mit der Kombination eines Spiegels ein sehr extravagantes Bild etabliert.\nDieses Bild habe ich geschossen, weil der Spiegel ein spezielles Bild zusammenstellt.",
+        "imagelocation": "BM-Gebäude, 1.Untergeschoss",
+        "shutter": "1/8",
+        "iso": "100",
+        "aperture": "5.0",
+        "camera": "Canon 77D, 18 - 55mm, f/4.0 - f/5.6",
+        "imagepath": "../../assets/images_remy/remy_image_01.PNG"
+      },
+      {
+        "imagetitle": "Der verweiste Autostopper",
+        "imagedescription": "Ein Sockel einer Autostoppsäule, welche offenichtlich länger nicht mehr verwendet wird.\nDas Bild habe ich geschnipst, weil es ein schönes natürliches Bild ist.",
+        "imagelocation": "Fachhochschule",
+        "shutter": "1/60",
+        "iso": "100",
+        "aperture": "5.0",
+        "camera": "Canon 77D, 18 - 55mm, f/4.0 - f/5.6",
+        "imagepath": "../../assets/images_remy/remy_image_02.PNG"
+      },
+      {
+        "imagetitle": "Die Experimentiergläser",
+        "imagedescription": "Wie in einem Labor aufgestellte Versuchsgläser, in jenem von denen wohl ein Experiment durchgeführt wird. Das Bild habe ich festgehalten, weil es sehr extraordinär aussah, wenn man ein bestimmtes Glas zwischen den anderen Gläser fokussiert.",
+        "imagelocation": "BM-Gebäude, 3.Stock",
+        "shutter": "1/60",
+        "iso": "100",
+        "aperture": "5.0",
+        "camera": "Canon 77D, 18 - 55mm, f/4.0 - f/5.6",
+        "imagepath": "../../assets/images_remy/remy_image_03.PNG"
+      }
+    ]
+  },
+  "olivier": {
+    "images": [
+      {
+        "imagetitle": "Verschlossene Tür",
+        "imagedescription": "Ich habe dieses Bild auf dem Weg zur Lernhalle aufgenommen. Mir ist das Schloss aufgefallen, da es mit der goldigen Farbe herausstach",
+        "imagelocation": "Gartenhäus bei Weg zu Lernhalle",
+        "shutter": "1/60",
+        "iso": "100",
+        "aperture": "4.0",
+        "camera": "Canon 77D, 18 - 55mm, f/4.0 - f/5.6",
+        "imagepath": "../../assets/images_olivier/olivier_image_01.PNG"
+      },
+      {
+        "imagetitle": "Lichterkette",
+        "imagedescription": "Dieses Bild habe ich bei der Wiese hinter der Mensa aufgenommen. Die Lichterkette fand ich ein gutes Motiv.",
+        "imagelocation": "Wiese hinter Mensa",
+        "shutter": "1/60",
+        "iso": "100",
+        "aperture": "4.0",
+        "camera": "Canon 77D, 18 - 55mm, f/4.0 - f/5.6",
+        "imagepath": "../../assets/images_olivier/olivier_image_02.PNG"
+      },
+      {
+        "imagetitle": "Drehkarussell",
+        "imagedescription": "Das letzte Bild habe ich auf dem Spielplatz aufgenommen. Ich habe mit diesem Bild versucht ein Objekt in den Vordergrund, als auch in den Hintergrund zu bringen.",
+        "imagelocation": "Spielplatz Lorrainepark",
+        "shutter": "1/250",
+        "iso": "100",
+        "aperture": "4.0",
+        "camera": "Canon 77D, 18 - 55mm, f/4.0 - f/5.6",
+        "imagepath": "../../assets/images_olivier/olivier_image_03.PNG"
+      }
+    ]
+  }
+}

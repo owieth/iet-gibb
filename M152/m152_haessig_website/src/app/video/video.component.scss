@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+
+.content {
+  background: #525b61;
+
+  .portfolio-image {
+    background: url("src/assets/video.jpg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .navigator {
+    align-self: end;
+    width: 50%;
+    border-right: 1px solid #ffffff;
+    height: 20%;
+    margin-bottom: 4em;
+    position: absolute;
+    bottom: 5px;
+  }
+
+  .navigator::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 11px 11px 0px 11px;
+    border-color: #ffffff transparent transparent transparent;
+    right: -0.7em;
+    bottom: -2px;
+  }
+
+  .image-previews {
+    margin: 50px 100px 0px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+
+    .flexbox {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      margin-bottom: 80px;
+    }
+
+    .container-1 {
+      flex-direction: row;
+    }
+
+    .container-2 {
+      flex-direction: row-reverse;
+    }
+
+    .image {
+      width: 45%;
+      border-radius: 10px;
+    }
+
+    .image-description {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      width: 45%;
+
+      h2 {
+        margin-top: 0;
+      }
+
+      p {
+        margin: 0;
+      }
+    }
+
+    .metadata {
+      img {
+        height: 20px;
+        width: 20px;
+      }
+
+      .location {
+        background-image: url(src/assets/icons/place-white-18dp.svg);
+      }
+
+      .shutter {
+        background-image: url(src/assets/icons/shutter_speed-white-18dp.svg);
+      }
+
+      .iso {
+        background-image: url(src/assets/icons/exposure-white-18dp.svg);
+      }
+
+      .aperture {
+        background-image: url(src/assets/icons/camera-white-18dp.svg);
+      }
+
+      .camera {
+        background-image: url(src/assets/icons/camera_alt-white-18dp.svg);
+      }
+    }
+  }
+}

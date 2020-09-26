@@ -1,0 +1,10 @@
+C:\Users\vmadmin\Desktop\Modul104.carFinder\Modul104.carFinder\bin\Debug\Modul104.carFinder.exe.config
+C:\Users\vmadmin\Desktop\Modul104.carFinder\Modul104.carFinder\bin\Debug\Modul104.carFinder.exe
+C:\Users\vmadmin\Desktop\Modul104.carFinder\Modul104.carFinder\bin\Debug\Modul104.carFinder.pdb
+C:\Users\vmadmin\Desktop\Modul104.carFinder\Modul104.carFinder\obj\Debug\Modul104.carFinder.csprojResolveAssemblyReference.cache
+C:\Users\vmadmin\Desktop\Modul104.carFinder\Modul104.carFinder\obj\Debug\Modul104.carFinder.CarTable.resources
+C:\Users\vmadmin\Desktop\Modul104.carFinder\Modul104.carFinder\obj\Debug\Modul104.carFinder.Form1.resources
+C:\Users\vmadmin\Desktop\Modul104.carFinder\Modul104.carFinder\obj\Debug\Modul104.carFinder.Properties.Resources.resources
+C:\Users\vmadmin\Desktop\Modul104.carFinder\Modul104.carFinder\obj\Debug\Modul104.carFinder.csproj.GenerateResource.Cache
+C:\Users\vmadmin\Desktop\Modul104.carFinder\Modul104.carFinder\obj\Debug\Modul104.carFinder.exe
+C:\Users\vmadmin\Desktop\Modul104.carFinder\Modul104.carFinder\obj\Debug\Modul104.carFinder.pdb

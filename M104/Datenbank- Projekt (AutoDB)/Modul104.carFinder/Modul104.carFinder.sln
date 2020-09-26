@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul104.carFinder", "Modul104.carFinder\Modul104.carFinder.csproj", "{7D9885D0-F2F5-4FAA-AE11-1E5FE60536BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D9885D0-F2F5-4FAA-AE11-1E5FE60536BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D9885D0-F2F5-4FAA-AE11-1E5FE60536BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D9885D0-F2F5-4FAA-AE11-1E5FE60536BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D9885D0-F2F5-4FAA-AE11-1E5FE60536BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

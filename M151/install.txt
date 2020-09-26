@@ -1,0 +1,53 @@
+﻿gem install rails 
+# update rails
+
+rails new instagram 
+# Erstellt Grundgerüst und Directory
+
+Gemfile editieren
+
+gem 'sqlite3', '~> 1.3.6'
+gem 'devise'
+
+Mit der installierten Version 1.4.0 von sqlite gehts nicht!
+
+Danach
+
+bundle install
+rails generate devise:install
+
+Weiter gemäss Arbeitsblatt
+
+
+
+#### PDF Seite 4/19 
+Einmalige Registrierung funktioniert, Sign-in funktioniert dann nicht, weil man ja schon
+eingeloggt ist und man sich nicht mehr ausloggen kann. Es erfolgt immer 
+ein Redirect auf die Startseite. Deshalb vielleicht diesen Screenshot entfernen.
+
+Eine zweite Registrierung kann nicht aufgerufen werden. (gleicher Grund wie vorher)
+
+
+
+
+
+### Seite 7/19
+
+Die Seite funktioniert nicht wegen folgender Fehlermeldung:
+
+Autoprefixer doesn’t support Node v4.2.6. Update it.
+
+Lösung:
+Package nodejs aus Paketverwaltung Ubuntu entfernt. Anschliessend gemäss 
+https://github.com/ai/autoprefixer-rails/issues/144 vorgegangen:
+
+als root:
+$ curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+$ sudo apt-get install -y nodejs
+
+
+
+
+### Seite 14/19
+
+Typo im Screenshot beim letzten <li> Element. Klasse heisst core-sprite und nicht core-sprit.

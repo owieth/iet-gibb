@@ -1,0 +1,28 @@
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap" rel="stylesheet">
+</head>
+<div class="content">
+    <div class="navbar">
+        <div class="navigation">
+            <div class="navigation-content">
+                <div class="site-previews">
+                    <div class="single-site" *ngFor="let site of sites">
+                        <a routerLink="{{site.site}}">
+                            <div class="image-container">
+                                <img src="{{ site.image }}">
+                                <div class="overlay">
+                                    <div class="title">
+                                        {{site.title}}
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="component-content">
+    <router-outlet></router-outlet>
+</div>

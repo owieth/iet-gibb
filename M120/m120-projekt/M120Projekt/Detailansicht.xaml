@@ -1,0 +1,55 @@
+﻿<UserControl x:Class="M120Projekt.Detailansicht"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:M120Projekt"
+        mc:Ignorable="d">
+    <DockPanel>
+        <Button Click="bearbeitenButtonClick" DockPanel.Dock="Bottom" Height="30" Width="100" HorizontalAlignment="Left" Margin="15 0 0 15" >Bearbeiten</Button>
+
+        <Grid Height="400" Width="250" VerticalAlignment="Top" Margin="150 0 0 0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="150"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Button Grid.Column="0" Grid.Row="0">
+                <Image Source="pack://application:,,,/assets/auto.png"/>
+            </Button>
+
+            <TextBlock Name="beschreibungTextBlock" Grid.Column="0" Grid.Row="1" TextWrapping="Wrap" Margin="0,0,0,23" >
+            </TextBlock>
+            <Grid.Resources>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Margin" Value="0 20 0 20" />
+                </Style>
+            </Grid.Resources>
+        </Grid>
+        <StackPanel Width="200" Margin="0 20 0 0" >
+            <Label>Autobezeichnung</Label>
+            <Label Name="autoBezeichnungLabel"></Label>
+            <Separator Width="20" Background="Transparent"/>
+            <Label>Leistung</Label>
+            <Label Name="leistungLabel"></Label>
+            <Separator Width="20" Background="Transparent"/>
+            <Label>Farbe</Label>
+            <Label Name="farbeLabel"></Label>
+            <Separator Width="20" Background="Transparent"/>
+            <Label>Kilometerstand</Label>
+            <Label Name="kilometerstandLabel"></Label>
+            <Separator Width="20" Background="Transparent"/>
+            <Label>Inverkehrssetzung</Label>
+            <Label Name="inverkehrssetzunglabel"></Label>
+            <Separator Width="20" Background="Transparent"/>
+            <Label>Neuwertig</Label>
+            <CheckBox Name="checkboxNeuwertig" IsHitTestVisible="False" Focusable="False"></CheckBox>
+            <Separator Width="20" Background="Transparent"/>
+            <Label>Preis</Label>
+            <Label Name="preisLabel"></Label>
+        </StackPanel>
+    </DockPanel>
+</UserControl>
