@@ -1,0 +1,139 @@
+@import "../colors";
+@import "../fonts";
+
+.title-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 80px 0 40px 0;
+  h1 {
+    color: #707070;
+    font-family: "SBBWeb";
+  }
+}
+
+.booking-container {
+  display: flex;
+  justify-content: center;
+  .content-centered {
+    width: 50%;
+    .input-container {
+      div {
+        display: flex;
+        align-items: center;
+        p {
+          color: #707070;
+          font-family: "SBBWeb";
+          font-size: 16px;
+          width: 50%;
+        }
+        input {
+          font-family: "SBBWeb";
+          font-size: 16px;
+          width: 50%;
+          height: 40px;
+          padding-left: 10px;
+        }
+      }
+    }
+    
+    .error-message{
+      display: flex;
+      justify-content: center;
+      p{
+        color: red;
+        font-size: 18px;
+      }
+    }
+
+    .button-container {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 60px;
+      button{
+        width: 220px;
+        outline: none;
+      }
+      .button-secondary{
+        margin-right: 40px;
+      }
+    }
+  }
+}
+
+//styles fo lightbox
+.full-size-lightbox-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  .message-box {
+    width: 300px;
+    height: 150px;
+    margin-bottom: 50px;
+    .message-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: white;
+        height: 100%;
+        .message-text{
+          padding: 5px 10px 5px 10px;
+          p{
+            line-height: 20px;
+            margin: 0;
+          }
+        }
+        .message-buttons{
+          margin: 10px 0px;
+          width: 100%;
+          display: flex;
+          justify-content: space-evenly;
+
+          button{
+            width: 40%;
+          }
+        }
+    }
+    .message-header {
+      display: flex;
+      height: 50px;
+      background: #eb0000;
+      color: white;
+      padding: 0px 10px;
+      align-items: center;
+      p {
+        margin: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+      .icon-close {
+        width: 25px;
+        height: 25px;
+      }
+    }
+  }
+}
+
+:host{
+  ::ng-deep{
+    .ui-inputtext{
+      width: 100%;
+      height: 40px;
+      border: 2px solid #b7b7b7;
+      border-radius: 2px;
+    }
+    .ui-datepicker{
+      background: white;
+    }
+    .ui-calendar{
+      width: 100%;
+    }
+    p-calendar {
+      width: 100%;
+    }
+  }
+}

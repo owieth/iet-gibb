@@ -1,0 +1,76 @@
+<div class="content">
+    <div class="bookings-container">
+        <div class="content-centered">
+            <button sbbButton class="button-primary" routerLink="/create-booking">Buchung hinzufügen</button>
+            <sbb-table tableId="bookingTable">
+                <thead>
+                    <tr>
+                        <th>
+                            <div>
+                                Buchungsstart
+                                <sbb-icon-arrows-up-down (click)="filterBookingStart()"></sbb-icon-arrows-up-down>
+                            </div>
+                        </th>
+                        <th>
+                            <div>
+                                Buchungsende
+                                <sbb-icon-arrows-up-down (click)="filterBookingFinish()"></sbb-icon-arrows-up-down>
+                            </div>
+                        </th>
+                        <th>
+                            <div>
+                                Raum
+                                <sbb-icon-arrows-up-down (click)="filterBookingRoom()"></sbb-icon-arrows-up-down>
+                            </div>
+                        </th>
+                        <th>
+                            <div>
+                                eNummer
+                                <sbb-icon-arrows-up-down (click)="filterBookingEnumber()"></sbb-icon-arrows-up-down>
+                            </div>
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let booking of bookings">
+                        <td>{{booking.bookingTime | date: 'dd.MM.yyyy / HH:mm'}}</td>
+                        <td>{{booking.bookingEndTime | date: 'dd.MM.yyyy / HH:mm'}}</td>
+                        <td>{{booking.room}}</td>
+                        <td>{{booking.enumber}}</td>
+                        <td>
+                            <div class="icons">
+                                <div routerLink="/booking/{{booking.id}}">
+                                    <sbb-icon-pen></sbb-icon-pen>
+                                </div>
+                                <div (click)="openModal(booking.id)">
+                                    <sbb-icon-trash></sbb-icon-trash>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </sbb-table>
+        </div>
+    </div>
+
+    <!--Lightbox for warn-message -->
+    <app-lightbox *ngIf="displayFullSize">
+        <div class="full-size-lightbox-container">
+            <div class="message-box">
+                <div class="message-header">
+                    <p>Buchung löschen</p>
+                </div>
+                <div class="message-content">
+                    <div class="message-text">
+                        <p>Wollen Sie diese Buchung wirklich löschen?</p>
+                    </div>
+                    <div class="message-buttons">
+                        <button sbbButton (click)="closeModal()">Nein</button>
+                        <button sbbButton mode="secondary" (click)="deleteBooking()">Ja</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </app-lightbox>
+</div>

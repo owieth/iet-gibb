@@ -1,0 +1,41 @@
+<div class="content">
+    <div class="title-container">
+        <h1>Buchung bearbeiten</h1>
+    </div>
+    <!-- <form (submit)="updateBooking()" [formGroup]="bookingForm"> -->
+    <div class="booking-container">
+        <div class="content-centered">
+            <div class="input-container">
+                <div>
+                    <p>Start</p>
+                    <div style="width: 50%;">
+                        <p-calendar [(ngModel)]="booking.bookingTime" [showTime]="true" dateFormat="dd.mm.yy" hourFormat="24" (ngModelChange)="checkIfFormCorrect()"></p-calendar>
+                    </div>
+                </div>
+                <div>
+                    <p>Ende</p>
+                    <div style="width: 50%;">
+                        <p-calendar [(ngModel)]="booking.bookingEndTime" [showTime]="true" dateFormat="dd.mm.yy" hourFormat="24" (ngModelChange)="checkIfFormCorrect()"></p-calendar>
+                    </div>
+                </div>
+                <div>
+                    <p>Raum</p>
+                    <input type="text" maxlength="100" [(ngModel)]="booking.room" (keyup)="checkIfFormCorrect()">
+                </div>
+                <div>
+                    <p>eNummer</p>
+                    <input type="text" [(ngModel)]="booking.enumber" (keyup)="checkIfFormCorrect()">
+                </div>
+            </div>
+            <div class="error-message">
+                <p>{{errorMessage}}</p>
+            </div>
+            <div class="button-container">
+                <button sbbButton class="button-secondary" mode="secondary" routerLink="/bookings">Verwerfen</button>
+                <button sbbButton (click)="updateBooking()" [disabled]="disabledButton">Buchung aktualisieren</button>
+            </div>
+        </div>
+    </div>
+    <!-- </form> -->
+
+</div>
