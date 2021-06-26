@@ -1,0 +1,25 @@
+<form [formGroup]="formGroup" (ngSubmit)="onSubmit()">
+  <mat-card class="container">
+      <mat-form-field appearance="fill">
+        <mat-label>Command</mat-label>
+        <mat-select formControlName="commandSelection">
+          <mat-option *ngFor="let command of allowedCommands" [value]="command">
+            {{command}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <button mat-raised-button color="primary" type="submit">
+        <mat-icon>send</mat-icon>
+      </button>
+  </mat-card>
+
+  <mat-card class="result">
+    {{ commandResult | json }}
+  </mat-card>
+
+  <mat-card class="history">
+    <h2>Command History</h2>
+    <p *ngFor="let command of executedCommands">{{ command }}</p>
+  </mat-card>
+</form>

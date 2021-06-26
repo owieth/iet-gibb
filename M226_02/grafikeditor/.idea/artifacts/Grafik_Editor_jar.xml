@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Grafik-Editor:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Grafik_Editor_jar</output-path>
+    <root id="archive" name="Grafik-Editor.jar">
+      <element id="module-output" name="Grafik-Editor" />
+    </root>
+  </artifact>
+</component>

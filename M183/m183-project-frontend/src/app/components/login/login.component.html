@@ -1,0 +1,30 @@
+<div class="container">
+  <div class="image">
+    <img src="../../../assets/images/login.svg" alt="">
+  </div>
+
+  <form [formGroup]="loginFormGroup" (ngSubmit)="loginUser()">
+    <h2>Login</h2>
+    <div class="input-container">
+      <label class="input">
+        <input class="input__field" formControlName="username" type="text" placeholder=" "/>
+        <span class="input__label">Enter your username</span>
+      </label>
+    </div>
+
+    <div class="input-container">
+      <label class="input">
+        <input class="input__field" formControlName="password" type="password" placeholder=" "/>
+        <span class="input__label">Enter your password</span>
+      </label>
+    </div>
+
+    <button mat-raised-button color="primary" type="submit">
+      Login
+    </button>
+
+    <div class="input-container">
+      <h3>Have no account? Register <a href="/signup">here</a>!</h3>
+    </div>
+  </form>
+</div>

@@ -1,0 +1,47 @@
+<div class="container">
+  <div class="image">
+    <img src="../../../assets/images/signup.svg" alt="">
+  </div>
+
+  <form [formGroup]="signUpFormGroup" (ngSubmit)="signUpUser()">
+    <h2>SignUp</h2>
+    <div class="input-container">
+      <label class="input">
+        <input class="input__field" formControlName="lastname" type="text" placeholder=" "/>
+        <span class="input__label">Enter your lastname</span>
+      </label>
+    </div>
+
+    <div class="input-container">
+      <label class="input">
+        <input class="input__field" formControlName="firstname" type="text" placeholder=" "/>
+        <span class="input__label">Enter your firstname</span>
+      </label>
+    </div>
+
+    <div class="input-container">
+      <label class="input">
+        <input class="input__field" formControlName="username" type="text" placeholder=" "/>
+        <span class="input__label">Enter your username</span>
+      </label>
+    </div>
+
+    <div class="input-container">
+      <label class="input">
+        <input class="input__field" formControlName="email" type="text" placeholder=" "/>
+        <span class="input__label">Enter your email</span>
+      </label>
+    </div>
+
+    <div class="input-container">
+      <label class="input">
+        <input class="input__field" formControlName="password" type="password" placeholder=" "/>
+        <span class="input__label">Enter your password</span>
+      </label>
+    </div>
+
+    <button type="submit">
+      SignUp
+    </button>
+  </form>
+</div>

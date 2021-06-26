@@ -1,0 +1,80 @@
+@import "src/styles";
+
+.container {
+  display: grid;
+  grid-template-columns: 40% auto;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  .image {
+    grid-column-start: 1;
+  }
+
+  .input-container {
+    margin-top: 30px;
+  }
+
+  form {
+    grid-column-start: 2;
+    width: 500px;
+    height: max-content;
+    background: $color-background;
+    padding: calc(4 * #{$size-bezel});
+    margin-top: calc(4 * #{$size-bezel});
+    border-radius: 10px;
+    border: 3px solid $color-dark;
+    box-shadow: .5rem .5rem 0 var(--color-shadow, $color-dark);
+
+    .input {
+      position: relative;
+
+      &__label {
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding: 0.25rem;
+        white-space: nowrap;
+        transform: translate(0, 0);
+        transform-origin: 0 0;
+        background: var($color-background);
+        transition: transform 120ms ease-in;
+        font-weight: bold;
+        line-height: 1.2;
+      }
+
+      &__field {
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+        border: 3px solid currentColor;
+        color: currentColor;
+        background: transparent;
+        border-radius: #{$size-radius};
+
+        &:focus,
+        &:not(:placeholder-shown) {
+          & + .input__label {
+            transform: translate(.25rem, -65%) scale(.8);
+            color: var($color-accent);
+          }
+        }
+      }
+    }
+
+    button {
+      color: currentColor;
+      padding: #{$size-bezel} calc(#{$size-bezel} * 2);
+      background: $color-signal;
+      border: none;
+      border-radius: #{$size-bezel};
+      font-weight: 900;
+      margin-top: 30px;
+
+      &[type=reset] {
+        background: var($color-background);
+        font-weight: 200;
+      }
+    }
+  }
+}

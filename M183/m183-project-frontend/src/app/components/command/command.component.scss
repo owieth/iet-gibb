@@ -1,0 +1,48 @@
+@import "src/styles";
+
+form {
+  padding: 100px;
+  display: grid;
+  grid-template-columns: auto 200px;
+  grid-template-rows: auto auto;
+  grid-gap: 25px;
+}
+
+.container {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  button {
+    margin: 0 0 20px 10px;
+    background-color: $color-signal;
+  }
+}
+
+.result {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  min-height: 200px;
+  max-width: 1000px;
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+}
+
+.history {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  height: calc(90% - 15px);
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
