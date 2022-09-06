@@ -24,7 +24,7 @@
     "express": "^4.17.1",
     "https": "^1.0.0",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.12.12",
+    "mongoose": "5.13.15",
     "mysql": "^2.18.1",
     "nodemon": "^2.0.7",
     "path": "^0.12.7",
